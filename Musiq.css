@@ -1,0 +1,184 @@
+*{
+ margin: 0%;
+ padding: 0%;
+ box-sizing: border-box;
+}
+
+
+
+.app{
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+
+}
+
+ 
+header h1{
+   
+ margin: 5px 0px 30px 0px;
+ text-align: center;
+ font-size: 70px;
+ color:white;
+ opacity: 90%;
+ font-weight: lighter;
+ font-family: 'Major Mono Display', monospace;
+}
+
+
+
+.pads{
+ 
+    background-color: cadetblue;
+    width:100%;
+    display: flex;
+
+    
+}
+.pads{
+    cursor: pointer;
+}
+
+.pads>div{
+    height: 100px;
+    width: 100px;
+    flex: 1;
+}
+
+.pads:hover{
+    
+}
+
+.pad1{
+
+    background-color:black;
+
+    
+    
+}
+.pad1 h1{
+
+color: white;
+opacity: 80%;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-weight: lighter;
+text-align: center;
+margin-top: 30px;
+
+
+}
+
+
+
+.pad2{
+    
+    background-color:white;
+
+}
+.pad2 h1{
+
+    color:black;
+    opacity: 100%;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin: 30px;
+
+    
+    
+    }
+    
+    
+    
+
+.pad3{
+
+background-color: black;
+
+}
+
+.pad3 h1{
+
+    color:white;
+    opacity: 80%;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin: 30px;
+
+    
+    
+    }
+
+
+.pad4{
+
+    background-color: white;
+    
+}
+
+.pad4 h1{
+
+    color:black;
+    opacity: 100%;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin: 30px;
+
+    
+    
+    }
+
+.pad5{
+
+    background-color:black;
+        
+}
+.pad5 h1{
+
+    color:white;
+    opacity: 80%;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 30px;
+
+
+    
+    
+    }
+
+.pad6{
+
+    background-color:white;
+    
+            
+}
+
+.pad6 h1{
+
+    color:black;
+    opacity: 100%;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 30px;
+}
+
+    
+video {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: -10;
+}
+
+
+
+  
+      
+      
